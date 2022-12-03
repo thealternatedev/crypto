@@ -4,7 +4,9 @@
   "description": "",
   "main": "lib/index.ts",
   "scripts": {
-    "test": "node index.js"
+    "crypto:test": "node crypto.js run tests/test.crypto",
+    "crypto:build:sh": "bash ./build.sh",
+    "crypto:build:win": "build.bat"
   },
   "bin": {
     "crypto": "crypto.js"
