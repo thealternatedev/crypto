@@ -1,0 +1,2 @@
+; This is used to specify sections
+SECTION ._global ; Global Section (Custom Section)

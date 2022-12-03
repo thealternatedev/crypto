@@ -1,0 +1,4 @@
+; To print you have to set a address position
+POS 0 ; First address position
+SET 72 ; H
+PRINT ; You can use PRINT or PRINTLN

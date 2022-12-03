@@ -1,0 +1,5 @@
+; This is used to loop through the last instructions was given
+POS 0 ; First address position
+SET 72 ; Sets address value to 72 (H)
+PRINT ; Prints H
+LOOP 1 ; Loop Once

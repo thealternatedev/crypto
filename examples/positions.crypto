@@ -1,0 +1,3 @@
+; To set a address position use POS
+; You can set address position's randomly by using any number
+POS 0 ; Starting with address pos 0

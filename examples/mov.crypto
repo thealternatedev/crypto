@@ -1,0 +1,9 @@
+; This is used to copy a address value and puts it in another address value
+POS 0 ; First address position
+SET 0 ; Sets Address value to 0 (Random)
+PRINT ; Prints Random character
+
+POS 1 ; Second address position
+SET 72 ; Sets address value to 72 (H)
+PRINT ; Prints character (H)
+MOV 0 1 ; Copies the 1 address value to the 0 address value

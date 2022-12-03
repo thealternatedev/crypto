@@ -1,0 +1,5 @@
+; This is used to increment a address value by 1
+POS 0 ; First address position
+SET 71 ; Set a random address value
+INC ; Increments the current address value by 1
+PRINT ; Prints H

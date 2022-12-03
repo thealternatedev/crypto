@@ -1,0 +1,5 @@
+; This is used to clear the used memory
+POS 0 ; First address position;
+SET 72 ; Character (H)
+PRINT ; Prints H
+CLEAR ; Removes address 0 from the memory

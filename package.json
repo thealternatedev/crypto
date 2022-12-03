@@ -1,0 +1,28 @@
+{
+  "name": "zeepalm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.ts",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "bin": {
+    "crypto": "crypto.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "commander": "^9.4.1",
+    "flaps-logger": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.10"
+  }
+}

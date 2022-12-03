@@ -1,0 +1,4 @@
+; This is used to print the current address value without turning it to a letter
+POS 0 ; First address position
+SET 72 ; Address value H
+GET ; Prints 72 not H
