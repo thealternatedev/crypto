@@ -2,7 +2,8 @@
   "name": "crypto-lang",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
+  "types": "./typings/index.d.ts",
   "scripts": {
     "crypto:test": "node crypto.js run tests/test.crypto",
     "crypto:build:sh": "bash ./build.sh",
