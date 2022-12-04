@@ -7,7 +7,7 @@
     "crypto:test": "node crypto.js run tests/test.crypto",
     "crypto:build:sh": "bash ./build.sh",
     "crypto:build:win": "build.bat",
-    "crypto:install": ""
+    "crypto:install": "npm install"
   },
   "bin": {
     "crypto": "crypto.js"
