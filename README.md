@@ -1,3 +1,5 @@
+![Info Image](big_img.png "Crypto Logo")
+
 [![Build Status](https://github.com/maxjackson2/crypto/actions/workflows/ci.yml/badge.svg)](https://github.com/maxjackson2/crypto/actions/workflows/ci.yml) 
 [![NPM Status](https://github.com/maxjackson2/crypto/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/maxjackson2/crypto/actions/workflows/npm-publish.yml)
 
