@@ -1,0 +1,26 @@
+{
+  "name": "crypto-lang-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "crypto-cli": "lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "commander": "^9.4.1",
+    "download": "^8.0.0",
+    "flaps-logger": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "gift": "^0.10.2",
+    "targz": "^1.0.1"
+  }
+}

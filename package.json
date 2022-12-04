@@ -6,7 +6,8 @@
   "scripts": {
     "crypto:test": "node crypto.js run tests/test.crypto",
     "crypto:build:sh": "bash ./build.sh",
-    "crypto:build:win": "build.bat"
+    "crypto:build:win": "build.bat",
+    "crypto:install": ""
   },
   "bin": {
     "crypto": "crypto.js"

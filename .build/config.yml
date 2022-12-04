@@ -1,0 +1,18 @@
+configuration:
+    debug: off
+    ignore:
+        - node_modules
+        - output
+        - package-lock.json
+
+cli-configuration:
+    current_cwd: ..
+    on-run-command:
+        command: build
+        if:
+            case: process.os["WIN32"]
+            then:
+                - build.bat
+        else:
+            then:
+                - bash ./build.sh

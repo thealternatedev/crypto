@@ -16,6 +16,29 @@ All Examples can be seen in the examples folder or select a example from this li
  - [Sections](./examples/section.crypto)
  - [Looping](./examples/loop.crypto)
 
+# Building the project
+Download the project and run these commands:  
+-  Packages Installation:
+    ```sh
+    npm run crypto:install
+    ```
+- Build the project:
+    ```sh
+    # For Windows use
+    npm run crypto:build:win
+    # For linux Unix, Linux, BSD, macOS, and Cygwin use
+    npm run crypto:build:sh
+    ```
+- or Download the cli using npm:
+    ```sh
+    npm install -g crypto-cli
+    ```
+    and run:
+    ```sh
+    # This builds for every system so don't worry.
+    crypto-cli -git -install -build
+    ```
+
 # License and Author
 This project current license is **MIT**.  
 **Author**: Max Jackson
