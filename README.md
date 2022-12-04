@@ -1,3 +1,6 @@
+[![Build Status](https://github.com/maxjackson2/crypto/actions/workflows/ci.yml/badge.svg)](https://github.com/maxjackson2/crypto/actions/workflows/ci.yml) 
+[![NPM Status](https://github.com/maxjackson2/crypto/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/maxjackson2/crypto/actions/workflows/npm-publish.yml)
+
 # crypto
 Not fast, Open Source Language created with javascript based off assembly.
 
