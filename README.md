@@ -1,5 +1,5 @@
 # crypto
-Open Source Language created with javascript based off assembly.
+Not fast, Open Source Language created with javascript based off assembly.
 
 # Examples
 All Examples can be seen in the examples folder or select a example from this list:
@@ -15,3 +15,7 @@ All Examples can be seen in the examples folder or select a example from this li
  - [Moving Addressess](./examples/mov.crypto)
  - [Sections](./examples/section.crypto)
  - [Looping](./examples/loop.crypto)
+
+# License and Author
+This project current license is **MIT**.  
+**Author**: Max Jackson
