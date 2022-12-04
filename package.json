@@ -1,7 +1,7 @@
 {
   "name": "crypto-lang",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://github.com/maxjackson2/crypto/actions/workflows/ci.yml/badge.svg)](https://github.com/maxjackson2/crypto/actions/workflows/ci.yml) \r [![NPM Status](https://github.com/maxjackson2/crypto/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/maxjackson2/crypto/actions/workflows/npm-publish.yml)",
   "main": "lib/index.js",
   "types": "./typings/index.d.ts",
   "scripts": {
@@ -9,6 +9,10 @@
     "crypto:build:sh": "bash ./build.sh",
     "crypto:build:win": "build.bat",
     "crypto:install": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxjackson2/crypto.git"
   },
   "bin": {
     "crypto": "crypto.js"
@@ -28,5 +32,14 @@
   "devDependencies": {
     "@types/lodash": "^4.14.191",
     "@types/node": "^18.11.10"
+  },
+  "bugs": {
+    "url": "https://github.com/maxjackson2/crypto/issues"
+  },
+  "homepage": "https://github.com/maxjackson2/crypto#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
   }
 }
