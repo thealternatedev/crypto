@@ -70,9 +70,10 @@ function shutdownProgram(reason) {
     
     if (allowBuildProject) {
         let platform = process.platform === "win32" ? "win" : "sh";
+        console.log(platform)
         let pkg = require(path.join(process.cwd(), "crypto", "package.json"));
         console.log(pkg);
-        let execute = execSync(pkg.scripts["crypto:build" + platform], { encoding: "utf-8", cwd: path.join(process.cwd(), "crypto") });
+        let execute = execSync(pkg.scripts["crypto:build:" + platform], { encoding: "utf-8", cwd: path.join(process.cwd(), "crypto") });
         if (execute) {
             console.log(execute);
         } 

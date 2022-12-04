@@ -1,0 +1,5 @@
+configuration:
+    debug: off
+    ignore:
+        - node_modules
+        - package-lock.json

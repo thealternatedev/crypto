@@ -31,7 +31,7 @@ Download the project and run these commands:
     ```
 - or Download the cli using npm:
     ```sh
-    npm install -g crypto-cli
+    npm install -g crypto-lang-cli
     ```
     and run:
     ```sh
